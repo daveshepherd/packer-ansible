@@ -1,10 +1,10 @@
 # Packer Build Resource
 
-A Concourse CI resource to build new [Amazon Machine Images (AMI) via Packer](https://www.packer.io/docs/builders/amazon.html)
+A Concourse CI resource CircleCI image to build new [Amazon Machine Images (AMI) via Packer](https://www.packer.io/docs/builders/amazon.html)
 
 *Note:* This fork includes ansible for use as a provisioner.
 
-Original by [jdub](https://hub.docker.com/r/jdub/packer-resource/)!
+Original by [gaahrdner](https://github.com/gaahrdner/packer-ansible-resource)!
 
 ## Source Configuration
 
