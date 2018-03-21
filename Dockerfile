@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-ARG PACKER_VER=1.1.1
+ARG PACKER_VER=1.2.1
 ENV USER ansible
 
 RUN sed -i -e 's/v3\.6/edge/g' /etc/apk/repositories \ 
