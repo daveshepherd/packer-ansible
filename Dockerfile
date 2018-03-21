@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.7
 
 ARG PACKER_VER=1.2.1
 ENV USER ansible
