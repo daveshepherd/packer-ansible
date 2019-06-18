@@ -1,9 +1,9 @@
 FROM alpine:3.9
 
-ARG PACKER_VER=1.4.1
+ARG PACKER_VER=1.3.4
 ENV USER ansible
 
-RUN sed -i -e 's/v3\.6/edge/g' /etc/apk/repositories \ 
+RUN sed -i -e 's/v3\.6/edge/g' /etc/apk/repositories \
   && apk --no-cache add jq bash git ca-certificates openssh-client sed openssl ansible \
   && wget -O /tmp/packer.zip \
     "https://releases.hashicorp.com/packer/${PACKER_VER}/packer_${PACKER_VER}_linux_amd64.zip" \
